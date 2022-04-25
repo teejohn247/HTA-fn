@@ -22,56 +22,46 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        .single-category-item {
+        .single-category-item{
             height: 250px;
             box-shadow: 0 20px 40px #eaeaea;
             border-radius: 10px;
         }
+        @media only screen and (max-width: 600px){
+          body{
+              width: 100%;
+              overflow-x: hidden;
+          }
+          .for_mobile_hero{
+              width: 100%;
+              text-align: left !important;
 
-        @media only screen and (max-width: 600px) {
-
-            /*Big smartphones [426px -> 600px]*/
-            body {
-                width: 100%;
-                overflow-x: hidden;
-            }
-
-            .for_mobile_hero {
-                width: 100%;
-                text-align: left !important;
-
-            }
-
-            .for_mobile_hero h1 {
-                font-size: 30px !important;
-                width: 100% !important;
-                text-align: left !important;
-            }
-
-            .row {
-                display: block !important;
-                margin-right: 0px !important;
-                margin-left: 0px !important;
-            }
-
-            .mob_contain {
-                position: absolute !important;
-                top: 20em !important;
-                left: 0em !important;
-            }
-
-            .feedback-home-2 .feedback-video-part {
-                display: block !important;
-                margin-top: 60px !important;
-            }
-
-            .feedback-video-part img {
-                border-radius: 15px !important;
-            }
-
-            .counterup-section .single-counterup {
-                margin-bottom: 60px;
-            }
+          }
+          .for_mobile_hero h1{
+              font-size: 30px !important;
+              width: 100% !important;
+              text-align: left !important;
+          } 
+          .row{
+              display: block !important;
+              margin-right: 0px !important;
+              margin-left: 0px !important;
+          }
+          .mob_contain{
+            position: absolute !important;
+            top: 20em !important;
+            left: 0em !important;
+         }
+         .feedback-home-2 .feedback-video-part{
+             display: block !important;
+             margin-top: 60px !important;
+         }
+         .feedback-video-part img{
+             border-radius: 15px !important;
+         }
+         .counterup-section .single-counterup{
+             margin-bottom: 60px;
+         }
         }
     </style>
 </head>
@@ -94,17 +84,14 @@
             <a href="index.html"><img src="assets/images/HONEY.png" alt="logo"></a>
         </div>
         <ul>
-            <!-- <li class="have-submenu"><a href="#">home</a>
+            <li class="have-submenu"><a href="#">home</a>
                 <ul class="sub-menu">
                     <li><a href="index-2.html">home 01</a></li>
                     <li><a href="home-2.html">home 02</a></li>
                 </ul>
-            </li> -->
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about us</a></li>
-            <li><a href="contact.html">contact us</a></li>
-            <li><a href="course.html">courses</a></li>
-            <!-- <li class="have-submenu"><a href="#">course</a>
+            </li>
+            <li><a href="about.html">about</a></li>
+            <li class="have-submenu"><a href="#">course</a>
                 <ul class="sub-menu">
                     <li><a href="web-development.html">web development</a></li>
                     <li><a href="education.html">education</a></li>
@@ -132,7 +119,7 @@
             <li><a href="contact.html">contact</a></li>
             <li><a href="login.html">log in</a></li>
             <li><a href="signup.html">sign up</a></li>
-            <li><a href="404.html">404</a></li> -->
+            <li><a href="404.html">404</a></li>
         </ul>
     </div>
 
@@ -152,13 +139,13 @@
                                 <i class="fa fa-envelope-open"></i>
                                 <span><a href="mailto:info@honeytreatacademy.com">info@honeytreatacademy.com</a></span>
                             </div>
-                            <div class="menu-toggle-bar">
+                            <!-- <div class="menu-toggle-bar">
                                 <div class="custom-bars">
                                     <div class="custom-bar bar-1"></div>
                                     <div class="custom-bar bar-2"></div>
                                     <div class="custom-bar bar-3"></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -221,8 +208,7 @@
                                 </form>
                             </div> -->
                             <div class="header-button">
-                                <a href="signup.html" class="template-button-2"
-                                    style="color: white; border-color: yellowgreen;">Become a student</a>
+                                <a href="signup.html" class="template-button-2" style="color: white; border-color: yellowgreen;">Become a student</a>
                                 <a href="instructor-details.html" class="template-button">instructor</a>
                             </div>
                         </div>
@@ -258,13 +244,9 @@
         <div class="container mob_contain" style="position: absolute; top:15em; left:2em;">
             <div class="row">
                 <div class="col-lg-12 col-md-12 align-self-center">
-                    <div class="hero-content for_mobile_hero"
-                        style="text-align: center; width: 100vw; margin-top: 50px;">
-                        <h1
-                            style="color: #ffffff;text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 70px;">
-                            Acquire skills <span>and Certification</span> in construction trades</h1>
-                        <span class="hero-tagline" style="color: white; font-size: 30px; font-family: caveat;">Perfect
-                            your construction trade skills.</span>
+                    <div class="hero-content for_mobile_hero" style="text-align: center; width: 100vw; margin-top: 50px;">
+                        <h1 style="color: #ffffff;text-align: center; width: 50%; margin-left: auto; margin-right: auto; font-size: 70px;">Acquire skills <span>and Certification</span> in construction trades</h1>
+                        <span class="hero-tagline" style="color: white; font-size: 30px; font-family: caveat;">Perfect your construction trade skills.</span>
                         <div class="hero-button">
                             <a href="course.html" class="template-button">start course</a>
                         </div>
@@ -397,7 +379,7 @@
         <div class="container">
 
 
-
+            
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center">
